@@ -21,5 +21,9 @@ public class Division {
                System.out.println("You can't divide by 0. " +
                "Please re-run the program.");
            }
+
+           finally {
+               System.out.println("finally block will execute.");
+           }
         }
 }
